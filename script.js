@@ -26,3 +26,28 @@ function generatePassword () {
   if (passlength >= 8 && passlength <= 128) {
 
     password.length = passlength
+
+
+    var hasLowerCase = confirm("Do you want lower case?");
+    var hasUpperCase = confirm("Do you want upper case?");
+    var hasNumeric = confirm("Do you want numeric");
+    var hasSymbols = confirm("Do you want symbols");
+
+  }
+
+  else {
+    alert("Paramaters not met for password creation. Lenght must be 8-128 characters")
+  }
+
+  if (hasLowerCase) {
+    passCharacters += lowerCase
+  }
+  if (hasUpperCase) {
+    passCharacters += upperCase
+  }
+  if (hasNumeric) {
+    passCharacters += numeric
+  }
+  if (hasSymbols) {
+    passCharacters += symbols
+  }
