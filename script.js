@@ -51,3 +51,20 @@ function generatePassword () {
   if (hasSymbols) {
     passCharacters += symbols
   }
+
+
+  for ( var i=0; i < passlength; i++ ) {
+    userPassword += passCharacters[Math.floor(Math.random() * passCharacters.length)];
+  }
+
+console.log(passCharacters)
+
+return userPassword
+
+}
+
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
+ 
