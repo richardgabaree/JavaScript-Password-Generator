@@ -14,3 +14,15 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
+// Actual password creation
+function generatePassword () {
+  
+  var passCharacters = "";
+  var userPassword = "";
+
+  var passlength = prompt("Number of characters in password? min 8 max 128");
+
+  if (passlength >= 8 && passlength <= 128) {
+
+    password.length = passlength
