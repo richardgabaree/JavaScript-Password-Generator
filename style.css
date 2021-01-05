@@ -13,7 +13,7 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #db904a;
 }
 
@@ -28,6 +28,7 @@ header {
   padding: 20px;
   padding-top: 0px;
   color:rgb(240, 240, 247);
+  font-size: 25px;
 }
 
 .card {
@@ -40,6 +41,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
@@ -81,6 +83,7 @@ header {
   color: hsl(0, 0%, 100%);
   display: inline-block;
   font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
