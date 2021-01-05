@@ -33,4 +33,6 @@ In this project I've implemented some basics of JavaScript.
 * Loops
 * Generating random values
 
+![Final Password Created](//Users/richardgabaree/Documents/JavaScript-Password-Generator/Images/Final password.png)
+
 The challenge I had with this homework was understanding the order the steps should go though to make this work.Ive learned placing variables in the proper scope is very important. Having a basic pseudo layout of ideas and execution was also valuable in keeping this project well structured. Finding bugs in my program was a great learning experience for getting a deeper understanding of how these concepts all work together.
