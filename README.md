@@ -1,7 +1,7 @@
 # JavaScript-Password-Generator
 Homework 3
 
-[!Starting Page](https://github.com/richardgabaree/JavaScript-Password-Generator/blob/main/Images/Final%20password.png)  
+![](/Users/richardgabaree/Documents/JavaScript-Password-Generator/Images/Final password.png)  
 
 ## **Password Creator**
 
